@@ -39,7 +39,7 @@
 
     ?>
     <h2>Take the survey: </h2>
-    <form method="post" name="form1" action ="form.php">
+    <form method="post" name="form1" action ="form.php">//sends data to form.php which prints out values
         <p>
             <label for="myName">*Name:</label> 
             <input type = "text" name="name" required="required">
