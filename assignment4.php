@@ -33,13 +33,14 @@
         }
 
         $browser = new Select();
-        $browser->set_name('User Browser');
-        $browser->set_value($browsers);
-
+        $browser->set_name('users_browser');
+        $browser->set_value($browsers); //Value returns null
+        
+        //var_dump($browser); For testing purposes
 
     ?>
     <h2>Take the survey: </h2>
-    <form method="post" name="form1" action ="form.php">//sends data to form.php which prints out values
+    <form method="post" name="form1" action ="form.php">
         <p>
             <label for="myName">*Name:</label> 
             <input type = "text" name="name" required="required">
@@ -52,9 +53,14 @@
             <label for="myEmail">*Email:</label>
             <input type = "email" name="email" required="required">
          </p>
+        <p>
+            <select id="menu" name = "users_browser">
+                <option value = "<?php $browser->get_value(0) ?>">Chrome</option> <!-- Since value is null output is nothing!-->
+            </select>
+        </p>
         <input type="submit" id="mySubmit">
 
     </form>
-
+       
 </body>
 </html>
