@@ -1,11 +1,13 @@
 <?php
     
-    $name = $_POST['name']; //gets name of user
-    $user = $_POST['username'];//gets username of user
-    $email = $_POST['email'];//gets email of user
+    $name = $_POST['name'];
+    $user = $_POST['username'];
+    $email = $_POST['email'];
+    $browser_choice = $_POST['users_browser'];//Gets the select but nothing is returned
 
-    echo "<p> $name <p>";//prints name
-    echo "<p> $user<p>";//prints username
-    echo "<p> $email <p>";//prints email
+    echo "<p> $name </p>";
+    echo "<p> $user</p>";
+    echo "<p> $email </p>";
+    echo "<p> $browser_choice </p>";
 
 ?>
