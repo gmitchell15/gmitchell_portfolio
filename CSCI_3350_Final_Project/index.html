@@ -1,0 +1,155 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<!--
+		George Mitchell
+		CSCI 3350
+		Summer 2021
+	-->
+	<title>Mitchell Florist - Home</title>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags 
+    	The width=device-width part sets the width of the page to follow the screen-width of the device.
+        The initial-scale=1 part sets the initial zoom level when the page is first loaded by the browser. 
+    -->
+	
+        <meta name="keywords" content="Mitchell Florist, Flowers">
+	
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap_dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!--jQuery & JavaScript library-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    	
+		<!-- External Stylesheet -->
+		<link href="style.css" rel="stylesheet">
+    </head>
+<body>
+
+<!-- Navigation -->
+	<nav>
+		<div class="container" >
+			<div class="row">
+				<div class="col-lg-12">
+						<ul style="border: 2px solid black;">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Shop</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="#">Delivery</a></li>
+						<li><a href="#">Location</a></li>
+						<li style="border:none"><a href="#">Special Occasions</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	
+<!-- Logo as an image -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<img class="img-fluid" src="images/index_06.jpg" alt="logo">
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+		<!-- Below is the image carousel -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 carousel">
+					<div id="myCaroussel" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="images/annie-spratt-KQ6sO8m1ZDE-unsplash.jpg" height="300" width="500"  alt="flowers in basket">
+							</div>
+							<div class="carousel-item">
+								<img src="images/annie-spratt-OWq8w3BYMFY-unsplash.jpg" height="300" width="500" alt="flowers on wooden bpard">
+							</div>
+							<div class="carousel-item">
+								<img  src="images/carlos-ferreira-Jup6QMQdLnM-unsplash.jpg" height="300" width="300"  alt="Dahlia">
+							</div>
+						</div>
+						 <a class="carousel-control-prev" href="#myCaroussel" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							
+						</a>
+						<a class="carousel-control-next" href="#myCaroussel" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- This container holds the images below the carousel -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4" > <img src="images/index_14.jpg" alt="boquet of flowers in vase"> 
+				<div class="text-center buttonBox"><button type="button">Add to Cart</button></div>
+				</div>
+				<div class="col-sm-4"> <img src="images/index_16.jpg"  alt="single rose"> 
+				<div class="text-center buttonBox"><button type="button">Add to Cart</button></div>
+				</div>
+				<div class="col-sm-4"> <img src="images/index_12.jpg"  alt="roses"> 
+				<div class="text-center buttonBox"><button type="button">Add to Cart</button></div>
+				</div>
+			</div>
+		</div>
+	
+	<!-- Image of the zip code header -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<img style="padding-top:10px; padding-bottom:10px;" class="img-fluid" src="images/index_29.jpg" alt="zip code header">
+				</div>
+			</div>
+		</div>
+		
+	<!-- List of zip codes and part of the bottom content -->
+		<div class="container bottom_content" >
+			<div class="row "> 
+				<div class="col-lg-12 ">
+					<p style="text-align:center">
+						37040, 37042, 37043, 42223 (Delivery will be more expensive due to distance).
+					</p>
+				</div>
+			</div>
+		</div>
+		
+	<!-- Email form and part of bottom content -->
+		<div class="container bottom_content">
+			<div class="row">
+				<div class="col-lg-12">
+					<form style="text-align:center" method="POST" action="mailto:gmitchell15@my.apsu.edu">
+						<label for="myEmail">Enter your Email for deals: </label>
+						<input type="email" name="email" id="myEmail">
+						<input type="submit" id="mySubmit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	</main>
+	
+	<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<footer>
+						(865)-888-8888<br>
+						Clarksville, TN<br>
+						&copy; 2021 Mitchell Florist
+					</footer>
+				</div>
+			</div>
+	</div>
+</body>
+</html>

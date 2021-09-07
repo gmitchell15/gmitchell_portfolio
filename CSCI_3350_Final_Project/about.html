@@ -1,0 +1,116 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<!--
+		George Mitchell
+		CSCI 3350
+		Summer 2021
+	-->
+	<title>Mitchell Florist - About</title>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags 
+    	The width=device-width part sets the width of the page to follow the screen-width of the device.
+        The initial-scale=1 part sets the initial zoom level when the page is first loaded by the browser. 
+    -->
+	
+        <meta name="keywords" content="Mitchell Florist, Flowers, About">
+	
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap_dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!--jQuery & JavaScript library-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    	
+		<!-- External Stylesheet -->
+		<link href="style.css" rel="stylesheet">
+    </head>
+<body>
+	<main>
+	<!-- Navigation -->
+		<nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">Shop</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Delivery</a></li>
+							<li><a href="#">Location</a></li>
+							<li><a href="#">Special Ocacsions</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		
+	<!-- Image of logo -->
+		<header>
+			<div class="container" style="padding-bottom:10px">
+				<div class="row">
+					<div class="col-lg-3">
+						<img class="img-fluid" src="images/index_06.jpg" alt="Logo">
+					</div>
+				</div>
+			</div>
+			
+		<!-- Main content -->
+			<div class="container bottom_content ">
+				<div class="row">
+					<div class="col-lg-12">
+						<p>
+							Mitchell Florist is an established flower shop based in Clarksville, Tennessee, USA.
+                            It has been in the flower and gift shop business for the past 10 years. We mainly sell
+                            flowers and gifts, but we also deliver flowers. We also sell flower arrangements for special
+                            occasions and gift basks upon request. Mitchell Florist is a small team and regularly hires contractors.
+						</p>
+						<p>
+							Mitchell Florist was started because of our owner's love of nature photography. Mitchell Florist strives to be your first
+                            choice when you need flowers. We have all kinds of flowers for any occasion from birthdays to anniversaries.
+                            If you can't make it to the store, we also deliver.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container bottom_content">
+				<div class="row">
+					<div class="col-lg-12">
+						<p style="text-align:center">
+							Fill out the form below if you have any questions or requests.
+						</p>
+						<form method="POST" action="mailto:gmitchell15@my.apsu.edu">
+							<label for="firstName">First Name: </label>
+							<input type="text" name="firstName" id="firstName" required><br>
+							<label for="lastName">Last Name: </label>
+							<input type="text" name="lastName" id="lastName" required><br>
+							<label for="email">Enter your Email: </label>
+							<input type="email" name="email" id="email" required><br>
+							<label for="comments">Comments: </label><br>
+							<textarea cols="30" name="comments" id="comments" rows="5" required></textarea><br>
+							<input type="submit" id="mySubmit" value="Submit">
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+	</main>
+	
+	<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<footer>
+						(865)-888-8888<br>
+						Clarksville, TN<br>
+						&copy; 2021 Mitchell Florist
+					</footer>
+				</div>
+			</div>
+	</div>
+</body>
+</html>
