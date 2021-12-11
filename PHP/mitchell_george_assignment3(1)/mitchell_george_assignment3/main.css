@@ -1,0 +1,68 @@
+/*
+	George Mitchell
+	CSCI 4000
+	Fall 2021
+	Assignment 3
+*/
+table{
+	text-align: center;
+	width: 80%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+}
+
+td{
+	border: 1px dashed black;	
+}
+
+th{
+	border: 1px solid black;
+}
+
+header{
+	margin: 0;
+	background-color:blue;
+	padding-bottom:5px;
+	padding-top:5px;
+	border: 1px solid black;
+	text-align:center;
+}
+
+body{
+	margin-top: 0;
+	width:750px;
+	margin: 0 auto;
+	background-color:beige;
+}
+
+main{
+	background-color:gray;
+	padding-top:5px;
+	padding-bottom: 5px;
+	border: 1px solid black;
+}
+
+section{
+	margin-left:20px;
+}
+
+/*Used to adjust margin of h1 tags in main*/
+#format{
+	margin-left:20px;
+}
+
+
+footer{
+	background-color:gray;
+	padding-top:5px;
+	margin-top: 5px;
+	margin: 0 auto;
+	border: 1px solid black;
+	text-align:center;
+}
+
+input{
+	padding-left: 10px;
+	margin-bottom:10px;
+}
